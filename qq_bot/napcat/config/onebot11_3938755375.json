@@ -1,0 +1,26 @@
+{
+  "network": {
+    "httpServers": [],
+    "httpSseServers": [],
+    "httpClients": [],
+    "websocketServers": [],
+    "websocketClients": [
+      {
+        "enable": true,
+        "name": "真寻",
+        "url": "ws://127.0.0.1:8080/onebot/v11/ws",
+        "reportSelfMessage": true,
+        "messagePostFormat": "array",
+        "token": "G.)FV}=u)3%(m_|$",
+        "debug": false,
+        "heartInterval": 30000,
+        "reconnectInterval": 30000
+      }
+    ],
+    "plugins": []
+  },
+  "musicSignUrl": "",
+  "enableLocalFile2Url": false,
+  "parseMultMsg": false,
+  "imageDownloadProxy": ""
+}
